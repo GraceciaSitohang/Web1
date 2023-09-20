@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTML Tables</title>
+    <link rel="icon"href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Student Records</h1>
+    <table border="1">
+        <tr>
+          <th>Num.</th>
+          <th colspan="2">Nim/Name</th>
+          <th>Status</th>
+          <th>Attendance</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>123</td>
+          <td>vino</td>
+          <td>Inside</td>
+          <td rowspan="2">Present</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>321</td>
+            <td>Cara</td>
+            <td>Outside</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>456</td>
+            <td>Amel</td>
+            <td rowspan="2">Inside</td>
+            <td>Present</td>
+        </tr>  
+        <tr>
+            <td>4.</td>
+            <td>890</td>
+            <td>Amos</td>
+            <td>Absent</td>
+    </table> <br><br>
+    <table border="1">
+        <tr>
+            <td colspan="2">A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td colspan="3">C</td>
+            <td colspan="3">D</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td colspan="2">H</td>
+        </tr>
+
+    </table>
+</body>
+</html>
